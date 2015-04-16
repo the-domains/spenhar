@@ -25,7 +25,7 @@
   isBasedOnUrl: "https://soundcloud.com/littledragon/wildfire-sbtrkt-feat-little"
   title: "Wildfire - SBTRKT feat. Little Dragon"
   datePublished: "2015-04-16T14:45:08.067Z"
-  dateModified: "2015-04-16T14:45:08.067Z"
+  dateModified: "2015-04-16T14:49:02.627Z"
   sourcePath: "_posts/2015-04-16-wildfire-sbtrkt-feat-little-dragon.md"
   published: true
   _type: "AudioObject"
