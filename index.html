@@ -1,12 +1,216 @@
 <!DOCTYPE html>
-<html id="u82">
+<html id="u133">
 
-  <head id="u2">
+  <head id="u29">
     <meta charset="utf-8" id="u0" />
     <link rel="stylesheet" type="text/css" href="//cloud.typography.com/7920754/764286/css/fonts.css" />
-  </head>
+    <link rel="stylesheet" type="text/css" href="//cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/css/font/National/National-Thin.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/css/font/National/National-Light.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/css/font/National/National-Medium.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/css/font/Newzald/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/css/font/Icons/Icons.css" /><style type="text/css">
+  html:not(.gss-ready) {
+  opacity: 0;
+}
 
-  <body id="u81">
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+</style>
+    <link rel="stylesheet/gss" type="text/gss" href="//cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/layout.gss" />
+    <link rel="stylesheet/gss" type="text/gss" href="//cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/variables.gss" />
+    <link rel="stylesheet/gss" type="text/gss" href="//cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/debug.gss" />
+    <link rel="stylesheet/gss" type="text/gss" href="//cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/motion/animation.gss" /><script type="text/gss" href="//cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/blocks/align-center-y.gss">
+inner-gap-top >= inner-gap-vertical !require;
+inner-gap-bottom == inner-gap-top !require;
+inner-gap-top == inner-gap;
+</script><script type="text/gss" href="//cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/blocks/align-center-x.gss">
+inner-gap-right == inner-gap-left !require;
+outer-gap-right == outer-gap-left !require;
+inner-gap-left >= inner-gap-horizontal !require;
+</script><script type="text/gss" href="//cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/variations/cover-desc.gss">
+
+
+.cover {
+  left: == ^left;
+  width: == 4md;
+  width: <= 4md;   
+  height: == 4md !require;
+}
+
+img {
+  width: == ^(.cover)[width];
+  width: <= ^(.cover)[width];
+  height: == ^(.cover)[width];
+}
+
+.title{
+  left: == (.cover)[left] !medium100;
+  top: <= ^(.cover)[top];
+  width: <= ^(.cover)[width] !require;
+  center: == ^(.cover)[center] !medium100;
+  right: <= ^(.cover)[right] !medium100;
+}
+
+//.title[center-y] == &[center-y] !require;
+.description[center-y] == &[center-y] !require;
+
+.description {
+  top: >= ^top !medium100;
+  width: >= 2md !require;
+}
+
+.attribution{
+  width: == ^width;
+  height: == &intrinsic-height;
+  top: >= ^(.title)[bottom] + 1g;
+  left: >= ^left;
+  center-x: == ^(.title)[center-x];
+}
+
+//TODO - work out attribution options for same variation
+// .attribution{
+//   left: >= ^left;
+//   width: == &intrinsic-width;
+//   height: == &intrinsic-height;
+//   top: == ^(.html)[bottom] + 1g;
+// }
+</script><script type="text/gss" href="//cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/vfl/v-cover.gss">
+@v |-[inner-gap-top]-(.cover)-[inner-gap-bottom]-| !require;
+</script><script type="text/gss" href="//cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/vfl/h-cover-desc.gss">
+@h |-[inner-gap-left]-(.cover)-[inner-gap]-(.description)-[inner-gap-right]-| !require;
+</script><script type="text/gss" href="//cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/typography/repost-typography-small.gss">
+.title {
+  z-index: 1;
+  font-size: = 6g;
+  height: == &intrinsic-height !require;
+}
+
+.source {
+  z-index: = 1;
+  font-size: = 2.2g;
+  width: == &intrinsic-width;
+  height: == &intrinsic-height !require;
+}
+
+.name {
+  font-size: = 2.2g;
+  width: == &intrinsic-width;
+  height: == &intrinsic-height !require;
+}
+
+.cta-text {
+  font-size: = 2.3g;
+}
+.cta-deco {
+  font-size: = 17.5g;
+}
+
+.description {
+  font-size: = 2.5g;
+  height: == &intrinsic-height !require;
+}
+
+.text {
+  font-size: = 2.5g;
+  height: == &intrinsic-height !require;
+}
+
+.quote{
+  font-size: = 5g;
+  height: == &intrinsic-height !require;
+}
+
+a {
+  font-size: = 2.2g;
+  height: == &intrinsic-height !require;
+}
+
+p {
+  height: == &intrinsic-height !require;
+}
+
+h1 {
+  font-size: = 6g;
+  height: == &intrinsic-height !require;
+}
+
+h2 {
+  font-size: = 6g;
+  width: == &intrinsic-width;
+  height: == &intrinsic-height !require;
+}
+</script><script type="text/gss" href="//cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/sections/stack-vertical.gss">
+width: == intrinsic-width !require;
+top: == 0 !require;
+
+.block {
+  :first[top]   ==           ^block-gap-top     !require;
+  :next[top]    == &bottom + ^block-gap         !require;
+  :last[bottom] == ^height - ^block-gap-bottom  !require;
+
+  &outer-gap-left == 0;
+  &outer-gap-right == 0;
+
+  left:  ==          ^block-gap-left  + &outer-gap-left  !strong100;
+  right: == ^width - ^block-gap-right - &outer-gap-right !strong100;
+
+  outer-gap-left >= 0 !require;
+  outer-gap-right >= 0 !require;
+}
+</script><script type="text/gss" href="//cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/sections/align-justify-y.gss">
+block-gap-top == block-gap-vertical;
+block-gap-top >= block-gap-vertical !require;
+block-gap-top == block-gap-bottom !require;
+
+
+block-gap     == block-gap-between;
+
+block-gap     == block-gap-top !require;
+</script><script type="text/gss" href="//cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/sections/align-center-x.gss">
+block-gap-left == block-gap-right !require;
+block-gap-left >= block-gap-horizontal !require;
+block-gap-left == block-gap-horizontal !require;
+</script><script type="text/gss" href="//cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/asides/attribution/attribution.gss">
+.attribution{
+  width: == ^width;
+  height: == &intrinsic-height;
+  top: == ^bottom -3g; 
+}
+</script><script type="text/gss" href="//cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/asides/attribution/source-name.gss">
+.source {
+  left: == ^(.attribution)[left]; 
+  top: == ^(.attribution)[center-y];
+}
+
+.name {
+  top: == ^(.attribution)[center-y];
+  left: == ^(.source)[right] + 1g;
+}
+</script><script type="text/gss" href="//cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/blocks/align-top.gss">
+inner-gap-top == inner-gap-vertical !require;
+inner-gap-bottom >= inner-gap-vertical !require;
+</script><script type="text/gss" href="//cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/media/bg_media.gss">
+// Auto-stretch BG when centering content 
+img {
+  top: >= 1md;
+  height: == 5md !medium100;
+  opacity: == ^bg_media-opacity;
+}
+</script><script type="text/gss" href="//cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/vfl/v-bg_media.gss">
+@v |(.cover)| !require;
+</script><script type="text/gss" href="//cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/vfl/h-bg_media.gss">
+@h |(.cover)| !require;
+</script><script type="text/gss" href="//cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/blocks/align-right.gss">
+inner-gap-left >= inner-gap-horizontal !require;
+inner-gap-right == inner-gap-horizontal !require;
+</script></head>
+
+  <body id="u132">
     <div id="grid">
       <div class="col1"></div>
       <div class="col2"></div>
@@ -57,11 +261,135 @@
       <div class="row29"></div>
       <div class="row30"></div>
     </div>
-    <div class="layout-system computed fallback sections" id="u77">
-      <section class="section-fallback section left" id="u21">
-        <article class="post" id="ub1a744db-ca56-4e5b-b0a4-a1c6adf0d469">
-          <p class="description text" id="u5">Have you walk 10,000 steps today?</p>
-          <div class="cover image" id="u13"><style type="text/gss" scoped="scoped" id="u7">overflow: hidden;
+    <div class="layout-system user artistic-d4 w-assets sections" id="u128">
+      <div class="layout two-columns bricks" style="position:relative" id="u127"><style rel="stylesheet/gss" type="text/gss" scoped="scoped" id="u32">section {
+  width: <= $taylorW / 2;
+}
+
+displace-x = 1md;
+displace-y = 0.5md;
+
+v-gutter-min: = 1md;
+v-gutter-max: = 1md;
+
+h-gutter: = 0;
+
+h-gutter-left == h-gutter / 8;
+h-gutter-right == h-gutter-left;
+h-gutter-middle == h-gutter;
+
+    @if ::window[width] <= $taylorW/2 {
+      v-gutter-min: = .5md;
+      v-gutter-max = 0md;
+
+
+
+      section, aside {
+        height == 0;
+        // make section want to be small
+        // stack sections vertically
+        :first[top] == ^top !require;
+        :last[bottom] == ^height !require;
+        :next[top] == &bottom + ^v-gutter-min !require;
+      }
+
+      section {
+        height: == article[height] !require;
+
+
+        // offset horizontally
+        left: == ^left + ^h-gutter-left !require;
+        right: == ^right - ^h-gutter-right !require;
+      }
+    } @else {
+      h-gutter: = 4md;
+
+//col2
+
+    section.left {
+      left: == ^left + ^h-gutter-left;
+      right: == ^center-x - ^h-gutter-middle / 2;
+    }
+    section.right {
+      left: == ^center-x + ^h-gutter-middle / 2;
+      right: == ^right - ^h-gutter-right;
+    }
+
+    //rowtop    top: == 0 !require left: == 0 !require;
+
+
+    section {
+
+      height: == article[height] !require;
+      
+      top: >= ^top !require;
+      bottom: <= ^bottom !require;
+
+      slack-gap: >= ^v-gutter-min !require;
+      slack-gap: <= ^v-gutter-max !strong;
+
+     }
+    section.left {
+      + section.right {
+        top: == ^top !require;
+      }
+      + aside + section.right {
+        top: == ^top !require;
+      }
+    }
+
+    section.left {
+      top: == :previous[bottom] + &slack-gap !require;
+    }
+    section.right {
+      top: == :previous[bottom] + &slack-gap !require;
+    }
+
+    //last row bottom
+    section.left {
+      :last[bottom] == ^bottom !strong;
+    }
+    section.right {
+      :last[bottom] == ^bottom !strong;
+    }
+
+    .shift-x-1 {
+      margin-left: = ^shift-x;
+    }
+    .shift-x--1 {
+      margin-left: = ^shift-x * -1;
+    }
+    .shift-y-1 {
+      margin-top: = ^shift-y;
+    }
+    .shift-y--1 {
+      margin-top: = ^shift-y * -1;
+    }
+}</style>
+        <section class="repost-cover-desc section left" id="u57">
+          <article class="repost post" id="ub1a744db-ca56-4e5b-b0a4-a1c6adf0d469" style="position:relative"><style type="text/gss" scoped="scoped" id="u35">@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/sections/stack-vertical.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/sections/align-justify-y.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/sections/align-center-x.gss;
+block-gap-horizontal = 0;
+block-gap-vertical = 0;
+block-gap-between = 0;
+</style>
+            <div class="block wrapper" id="u55"><style type="text/gss" scoped="scoped" id="u38">@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/blocks/align-center-y.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/blocks/align-center-x.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/variations/cover-desc.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/vfl/v-cover.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/vfl/h-cover-desc.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/typography/repost-typography-small.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/css/title-cover-source-name-desc.css;
+@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/css/cover-desc.css;
+@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/css/alignC.css;
+inner-gap = 1.5g;
+inner-gap-vertical: = 1md;
+inner-gap-horizontal: = 1md;
+</style>
+              <h1 class="title text" id="u40">Withings Pulse Oâ</h1>
+              <p class="description text" id="u42">Have you walk 10,000 steps today?</p>
+              <div class="cover image" id="u50"><style type="text/gss" scoped="scoped" id="u44">overflow: hidden;
 "viewport"[top] == &top  !require;
 "viewport"[left] == &left  !require;
 "viewport"[height] == &height  !require;
@@ -77,11 +405,11 @@ img[height] == img[width] * (434/362) !require;
 
 /* enforce minimum scale*/
 img[height] >= 434 * image-min-scale !strong100;</style>
-            <img src="https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/b4679b69bee5c946f4dc67372da9388f/passthrough?input=http%3A%2F%2Fvitrine-media-cdn.withings.com%2Fcatalog%2Fproduct%2Fcache%2F8%2Fthumbnail%2F9df78eab33525d08d6e5fb8d27136e95%2Fp%2Fu%2Fpulse2_1.jpg&width=362&height=434" sizes="sizes='100vw'" srcset="https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/ebcae5971645dc7261f9e54f3e81719e/passthrough?input=http%3A%2F%2Fvitrine-media-cdn.withings.com%2Fcatalog%2Fproduct%2Fcache%2F8%2Fthumbnail%2F9df78eab33525d08d6e5fb8d27136e95%2Fp%2Fu%2Fpulse2_1.jpg&width=250&height=299.72375690607737 250w" id="u8" /><style type="text/gss" scoped="scoped" id="u10">/* define  blank spot */
+                <img src="https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/b4679b69bee5c946f4dc67372da9388f/passthrough?input=http%3A%2F%2Fvitrine-media-cdn.withings.com%2Fcatalog%2Fproduct%2Fcache%2F8%2Fthumbnail%2F9df78eab33525d08d6e5fb8d27136e95%2Fp%2Fu%2Fpulse2_1.jpg&width=362&height=434" sizes="sizes='100vw'" id="u45" /><style type="text/gss" scoped="scoped" id="u47">/* define  blank spot */
 "space"[x] == img[x] + 0 * image-scale !require;
 "space"[y] == img[y] + 315 * image-scale !require;
 "space"[width] ==  377 * image-scale !require;
-"space"[height] == 120 * image-scale !require;</style><style type="text/gss" scoped="scoped" id="u12">/* define  area of importance */
+"space"[height] == 120 * image-scale !require;</style><style type="text/gss" scoped="scoped" id="u49">/* define  area of importance */
 "scene"[x] == img[x] + 31 * image-scale !require;
 "scene"[y] == img[y] + 1 * image-scale !require;
 "scene"[width] ==  271 * image-scale !require;
@@ -90,23 +418,38 @@ img[height] >= 434 * image-min-scale !strong100;</style>
 /* Keep face towards original position */
 "scene"[center-x] == "viewport"[center-x];
 "scene"[center-y] == "viewport"[center-y];</style></div>
-          <div class="html" id="u15">
-            <article>
-              <h1>Withings Pulse Oâ</h1>
-              <p>Have you walk 10,000 steps today?</p>
-              <img src="http://vitrine-media-cdn.withings.com/catalog/product/cache/8/thumbnail/9df78eab33525d08d6e5fb8d27136e95/p/u/pulse2_1.jpg">
-            </article>
-          </div>
-          <div class="attribution" id="u19">
-            <div class="publisher source" id="u18">
-              <a href="http://www.withings.com" id="u17">Withings</a>
+              <div class="attribution" id="u54">
+                <div class="publisher source" id="u53">
+                  <a href="http://www.withings.com" id="u52">Withings</a>
+                </div>
+              </div>
             </div>
-          </div>
-        </article>
-      </section>
-      <section class="section-fallback section right" id="u36">
-        <article class="post" id="ubea782c1-1bfe-4226-95f0-9790252ca67d">
-          <div class="cover image" id="u29"><style type="text/gss" scoped="scoped" id="u23">overflow: hidden;
+          </article>
+        </section>
+        <section class="repost-image section right" id="u77">
+          <article class="repost post" id="ubea782c1-1bfe-4226-95f0-9790252ca67d" style="position:relative"><style type="text/gss" scoped="scoped" id="u60">@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/sections/stack-vertical.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/sections/align-justify-y.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/sections/align-center-x.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/media/bg_media.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/vfl/v-bg_media.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/vfl/h-bg_media.gss;
+block-gap-horizontal = 0;
+block-gap-vertical = 0;
+block-gap-between = 0;
+bg_media-opacity == .7;
+</style>
+            <div class="block wrapper" id="u75"><style type="text/gss" scoped="scoped" id="u63">@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/asides/attribution/attribution.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/asides/attribution/source-name.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/blocks/align-center-y.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/blocks/align-center-x.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/typography/repost-typography-small.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/css/bg_media.css;
+@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/blocks/align-top.gss;
+image-height == 1md;
+inner-gap-vertical: = 1md;
+inner-gap-horizontal: = 1md;
+</style>
+              <div class="cover image" id="u71"><style type="text/gss" scoped="scoped" id="u65">overflow: hidden;
 "viewport"[top] == &top  !require;
 "viewport"[left] == &left  !require;
 "viewport"[height] == &height  !require;
@@ -122,11 +465,11 @@ img[height] == img[width] * (400/600) !require;
 
 /* enforce minimum scale*/
 img[height] >= 400 * image-min-scale !strong100;</style>
-            <img src="https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/2244b30c4255a9ab5036415f422242fd/passthrough?input=https%3A%2F%2Fm1.behance.net%2Frendition%2Fmodules%2F161762967%2Fdisp%2Faaf1ab8cc1e15f72c65ef9f6f57dcb99.jpg&width=600&height=400" sizes="sizes='100vw'" srcset="https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/ca43ae8ffd9e764448c947bd69198fdc/passthrough?input=https%3A%2F%2Fm1.behance.net%2Frendition%2Fmodules%2F161762967%2Fdisp%2Faaf1ab8cc1e15f72c65ef9f6f57dcb99.jpg&width=250&height=166.66666666666669 250w,https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/1a318309070ea11f46d62c9855928505/passthrough?input=https%3A%2F%2Fm1.behance.net%2Frendition%2Fmodules%2F161762967%2Fdisp%2Faaf1ab8cc1e15f72c65ef9f6f57dcb99.jpg&width=500&height=333.33333333333337 500w" id="u24" /><style type="text/gss" scoped="scoped" id="u26">/* define  blank spot */
+                <img src="https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/2244b30c4255a9ab5036415f422242fd/passthrough?input=https%3A%2F%2Fm1.behance.net%2Frendition%2Fmodules%2F161762967%2Fdisp%2Faaf1ab8cc1e15f72c65ef9f6f57dcb99.jpg&width=600&height=400" sizes="sizes='100vw'" id="u66" /><style type="text/gss" scoped="scoped" id="u68">/* define  blank spot */
 "space"[x] == img[x] + 0 * image-scale !require;
 "space"[y] == img[y] + 0 * image-scale !require;
 "space"[width] ==  260 * image-scale !require;
-"space"[height] == 406 * image-scale !require;</style><style type="text/gss" scoped="scoped" id="u28">/* define  area of importance */
+"space"[height] == 406 * image-scale !require;</style><style type="text/gss" scoped="scoped" id="u70">/* define  area of importance */
 "scene"[x] == img[x] + 267 * image-scale !require;
 "scene"[y] == img[y] + 104 * image-scale !require;
 "scene"[width] ==  94 * image-scale !require;
@@ -135,17 +478,36 @@ img[height] >= 400 * image-min-scale !strong100;</style>
 /* Keep face towards original position */
 "scene"[center-x] == "viewport"[center-x];
 "scene"[center-y] == "viewport"[center-y];</style></div>
-          <div class="html" id="u31">
-            <img src="https://m1.behance.net/rendition/modules/161762967/disp/aaf1ab8cc1e15f72c65ef9f6f57dcb99.jpg">
-          </div>
-          <div class="attribution" id="u34">
-            <div class="publisher source" id="u33">behance.net</div>
-          </div>
-        </article>
-      </section>
-      <section class="section-fallback section left" id="u51">
-        <article class="post" id="u3f551004-08c9-491a-8a9d-6a75571fd98f">
-          <div class="cover image" id="u44"><style type="text/gss" scoped="scoped" id="u38">overflow: hidden;
+              <div class="attribution" id="u74">
+                <div class="publisher source" id="u73">behance.net</div>
+              </div>
+            </div>
+          </article>
+        </section>
+        <section class="repost-image section left" id="u97">
+          <article class="repost post" id="u3f551004-08c9-491a-8a9d-6a75571fd98f" style="position:relative"><style type="text/gss" scoped="scoped" id="u80">@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/sections/stack-vertical.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/sections/align-justify-y.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/sections/align-center-x.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/media/bg_media.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/vfl/v-bg_media.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/vfl/h-bg_media.gss;
+block-gap-horizontal = 0;
+block-gap-vertical = 0;
+block-gap-between = 0;
+bg_media-opacity == .7;
+</style>
+            <div class="block wrapper" id="u95"><style type="text/gss" scoped="scoped" id="u83">@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/asides/attribution/attribution.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/asides/attribution/source-name.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/blocks/align-center-y.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/blocks/align-center-x.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/typography/repost-typography-small.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/css/bg_media.css;
+@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/blocks/align-top.gss;
+image-height == 1md;
+inner-gap-vertical: = 1md;
+inner-gap-horizontal: = 1md;
+</style>
+              <div class="cover image" id="u91"><style type="text/gss" scoped="scoped" id="u85">overflow: hidden;
 "viewport"[top] == &top  !require;
 "viewport"[left] == &left  !require;
 "viewport"[height] == &height  !require;
@@ -161,11 +523,11 @@ img[height] == img[width] * (400/600) !require;
 
 /* enforce minimum scale*/
 img[height] >= 400 * image-min-scale !strong100;</style>
-            <img src="https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/a6362400dd197388883d50e95d656950/passthrough?input=https%3A%2F%2Fm1.behance.net%2Frendition%2Fmodules%2F163939821%2Fdisp%2F9274c54dd6ca10c5b2ba3325ccabf9f7.jpg&width=600&height=400" sizes="sizes='100vw'" srcset="https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/85c6fab6af1fa6fc16eddaa180143769/passthrough?input=https%3A%2F%2Fm1.behance.net%2Frendition%2Fmodules%2F163939821%2Fdisp%2F9274c54dd6ca10c5b2ba3325ccabf9f7.jpg&width=250&height=166.66666666666669 250w,https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/13d2be19523ff9bf1f0795be9c70ff05/passthrough?input=https%3A%2F%2Fm1.behance.net%2Frendition%2Fmodules%2F163939821%2Fdisp%2F9274c54dd6ca10c5b2ba3325ccabf9f7.jpg&width=500&height=333.33333333333337 500w" id="u39" /><style type="text/gss" scoped="scoped" id="u41">/* define  blank spot */
+                <img src="https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/a6362400dd197388883d50e95d656950/passthrough?input=https%3A%2F%2Fm1.behance.net%2Frendition%2Fmodules%2F163939821%2Fdisp%2F9274c54dd6ca10c5b2ba3325ccabf9f7.jpg&width=600&height=400" sizes="sizes='100vw'" id="u86" /><style type="text/gss" scoped="scoped" id="u88">/* define  blank spot */
 "space"[x] == img[x] + 0 * image-scale !require;
 "space"[y] == img[y] + 0 * image-scale !require;
 "space"[width] ==  580 * image-scale !require;
-"space"[height] == 196 * image-scale !require;</style><style type="text/gss" scoped="scoped" id="u43">/* define  area of importance */
+"space"[height] == 196 * image-scale !require;</style><style type="text/gss" scoped="scoped" id="u90">/* define  area of importance */
 "scene"[x] == img[x] + 161 * image-scale !require;
 "scene"[y] == img[y] + 203 * image-scale !require;
 "scene"[width] ==  117 * image-scale !require;
@@ -174,17 +536,36 @@ img[height] >= 400 * image-min-scale !strong100;</style>
 /* Keep face towards original position */
 "scene"[center-x] == "viewport"[center-x];
 "scene"[center-y] == "viewport"[center-y];</style></div>
-          <div class="html" id="u46">
-            <img src="https://m1.behance.net/rendition/modules/163939821/disp/9274c54dd6ca10c5b2ba3325ccabf9f7.jpg">
-          </div>
-          <div class="attribution" id="u49">
-            <div class="publisher source" id="u48">behance.net</div>
-          </div>
-        </article>
-      </section>
-      <section class="section-fallback section right" id="u66">
-        <article class="post" id="ubaf49991-ef99-4864-85a3-80edc824953e">
-          <div class="cover image" id="u59"><style type="text/gss" scoped="scoped" id="u53">overflow: hidden;
+              <div class="attribution" id="u94">
+                <div class="publisher source" id="u93">behance.net</div>
+              </div>
+            </div>
+          </article>
+        </section>
+        <section class="repost-image section right" id="u117">
+          <article class="repost post" id="ubaf49991-ef99-4864-85a3-80edc824953e" style="position:relative"><style type="text/gss" scoped="scoped" id="u100">@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/sections/stack-vertical.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/sections/align-justify-y.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/sections/align-center-x.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/media/bg_media.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/vfl/v-bg_media.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/vfl/h-bg_media.gss;
+block-gap-horizontal = 0;
+block-gap-vertical = 0;
+block-gap-between = 0;
+bg_media-opacity == .7;
+</style>
+            <div class="block wrapper" id="u115"><style type="text/gss" scoped="scoped" id="u103">@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/asides/attribution/attribution.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/asides/attribution/source-name.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/blocks/align-center-y.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/blocks/align-center-x.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/typography/repost-typography-small.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/css/bg_media.css;
+@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/blocks/align-right.gss;
+image-height == 1md;
+inner-gap-vertical: = 1md;
+inner-gap-horizontal: = 1md;
+</style>
+              <div class="cover image" id="u111"><style type="text/gss" scoped="scoped" id="u105">overflow: hidden;
 "viewport"[top] == &top  !require;
 "viewport"[left] == &left  !require;
 "viewport"[height] == &height  !require;
@@ -200,11 +581,11 @@ img[height] == img[width] * (600/600) !require;
 
 /* enforce minimum scale*/
 img[height] >= 600 * image-min-scale !strong100;</style>
-            <img src="https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/ccf2355c24a7812272c6f3a75bda01cb/passthrough?input=https%3A%2F%2Fm1.behance.net%2Frendition%2Fmodules%2F152595025%2Fdisp%2F0a0d72d0359b6eee045ff2cdf640eaee.jpg&width=600&height=600" sizes="sizes='100vw'" srcset="https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/9c7775a541408b284aa81fe0374840d5/passthrough?input=https%3A%2F%2Fm1.behance.net%2Frendition%2Fmodules%2F152595025%2Fdisp%2F0a0d72d0359b6eee045ff2cdf640eaee.jpg&width=250&height=250 250w,https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/39c611b726d158e392c3f298ed1ab56d/passthrough?input=https%3A%2F%2Fm1.behance.net%2Frendition%2Fmodules%2F152595025%2Fdisp%2F0a0d72d0359b6eee045ff2cdf640eaee.jpg&width=500&height=500 500w" id="u54" /><style type="text/gss" scoped="scoped" id="u56">/* define  blank spot */
+                <img src="https://imgflo.herokuapp.com/graph/vahj1ThiexotieMo/ccf2355c24a7812272c6f3a75bda01cb/passthrough?input=https%3A%2F%2Fm1.behance.net%2Frendition%2Fmodules%2F152595025%2Fdisp%2F0a0d72d0359b6eee045ff2cdf640eaee.jpg&width=600&height=600" sizes="sizes='100vw'" id="u106" /><style type="text/gss" scoped="scoped" id="u108">/* define  blank spot */
 "space"[x] == img[x] + 0 * image-scale !require;
 "space"[y] == img[y] + 0 * image-scale !require;
 "space"[width] ==  580 * image-scale !require;
-"space"[height] == 160 * image-scale !require;</style><style type="text/gss" scoped="scoped" id="u58">/* define  area of importance */
+"space"[height] == 160 * image-scale !require;</style><style type="text/gss" scoped="scoped" id="u110">/* define  area of importance */
 "scene"[x] == img[x] + 127 * image-scale !require;
 "scene"[y] == img[y] + 177 * image-scale !require;
 "scene"[width] ==  297 * image-scale !require;
@@ -213,27 +594,36 @@ img[height] >= 600 * image-min-scale !strong100;</style>
 /* Keep face towards original position */
 "scene"[center-x] == "viewport"[center-x];
 "scene"[center-y] == "viewport"[center-y];</style></div>
-          <div class="html" id="u61">
-            <img src="https://m1.behance.net/rendition/modules/152595025/disp/0a0d72d0359b6eee045ff2cdf640eaee.jpg">
-          </div>
-          <div class="attribution" id="u64">
-            <div class="publisher source" id="u63">behance.net</div>
-          </div>
-        </article>
-      </section>
-      <section class="section-fallback section left" id="u76">
-        <article class="post" id="u472cb5ff-d766-4b0f-ad2c-1bfa0fd0bbef">
-          <p class="description text" id="u68">The new album "Nabuma Rubberband" is out now http://po.st/NabumaRubberband Available in the USA on May 13th on Loma Vista Recordings Available in the rest of the world on May 12th on Because Music w</p>
-          <div class="html" id="u70">
-            <iframe src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fw.soundcloud.com%2Fplayer%2F%3Furl%3Dhttps%253A%252F%252Fapi.soundcloud.com%252Ftracks%252F14921840%26auto_play%3Dfalse%26show_artwork%3Dtrue%26visual%3Dtrue%26origin%3Dtwitter&src_secure=1&url=https%3A%2F%2Fsoundcloud.com%2Flittledragon%2Fwildfire-sbtrkt-feat-little&image=https%3A%2F%2Fi1.sndcdn.com%2Favatars-000069640556-ybg3hc-t500x500.jpg&key=b7d04c9b404c499eba89ee7072e1c4f7&type=text%2Fhtml&schema=soundcloud" width="435" height="400" scrolling="no" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
-          </div>
-          <div class="attribution" id="u74">
-            <div class="publisher source" id="u73">
-              <a href="https://soundcloud.com" id="u72">SoundCloud</a>
+              <div class="attribution" id="u114">
+                <div class="publisher source" id="u113">behance.net</div>
+              </div>
             </div>
-          </div>
-        </article>
-      </section>
-    </div><script src="https://rawgit.com/gss/document/ranges2/dist/gss.document.parser.js" id="u78"></script><script src="//cdn.thegrid.io/design-systems/taylor/0.0.10/src/assets/gss-init.js" id="u79"></script><script src="//cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/modifiers/displacement.js" id="u80"></script></body>
+          </article>
+        </section>
+        <section class="repost-cover-desc section left" id="u126">
+          <article class="repost post" id="u472cb5ff-d766-4b0f-ad2c-1bfa0fd0bbef" style="position:relative"><style type="text/gss" scoped="scoped" id="u120">@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/sections/stack-vertical.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/sections/align-justify-y.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/sections/align-center-x.gss;
+block-gap-horizontal = 0;
+block-gap-vertical = 0;
+block-gap-between = 0;
+</style>
+            <div class="block wrapper" id="u124"><style type="text/gss" scoped="scoped" id="u123">@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/blocks/align-center-y.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/blocks/align-center-x.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/variations/cover-desc.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/vfl/v-cover.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/vfl/h-cover-desc.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/typography/repost-typography-small.gss;
+@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/css/title-cover-source-name-desc.css;
+@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/css/cover-desc.css;
+@import //cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/css/alignC.css;
+inner-gap = 1.5g;
+inner-gap-vertical: = 1md;
+inner-gap-horizontal: = 1md;
+</style></div>
+          </article>
+        </section>
+      </div>
+    </div><script src="https://rawgit.com/gss/document/ranges2/dist/gss.document.parser.js" id="u129"></script><script src="//cdn.thegrid.io/design-systems/taylor/0.0.10/src/assets/gss-init.js" id="u130"></script><script src="//cdn.thegrid.io/design-systems/taylor/0.0.10/src/layouts/artistic/D4/assets/gss/modifiers/displacement.js" id="u131"></script></body>
 
 </html>
