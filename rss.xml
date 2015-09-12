@@ -3,14 +3,21 @@
     <channel>
         <title><![CDATA[Spencer]]></title>
         <description><![CDATA[Spencer]]></description>
-        <link>http://github.com/dylang/node-rss</link>
+        <link>https://thegrid.ai/spenhar/</link>
         <generator>The Grid</generator>
-        <lastBuildDate>Sat, 12 Sep 2015 15:05:09 GMT</lastBuildDate>
-        <atom:link href="undefinedrss.xml" rel="self" type="application/rss+xml"/>
+        <lastBuildDate>Sat, 12 Sep 2015 15:05:52 GMT</lastBuildDate>
+        <atom:link href="https://thegrid.ai/spenhar/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <description><![CDATA[<img src="http://a1.dspnimg.com/data/l/5b9d605657a69a4e68832ef92b9bcfc5_t7TQkw4T_l.jpg">]]></description>
+            <link>https://thegrid.ai/spenhar/124ee231-c50a-45a2-847a-020f37bd5037/index.html</link>
+            <guid isPermaLink="false">124ee231-c50a-45a2-847a-020f37bd5037</guid>
+            <pubDate>Sat, 12 Sep 2015 15:05:44 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[No title]]></title>
             <description><![CDATA[<img src="http://payload.cargocollective.com/1/3/96984/1687347/DSCN2503wname_2x.jpg">]]></description>
-            <link>undefined1f518d51-85cd-42c3-aa50-7881321c6a8c/index.html</link>
+            <link>https://thegrid.ai/spenhar/1f518d51-85cd-42c3-aa50-7881321c6a8c/index.html</link>
             <guid isPermaLink="false">1f518d51-85cd-42c3-aa50-7881321c6a8c</guid>
             <pubDate>Sat, 12 Sep 2015 15:05:01 GMT</pubDate>
         </item>
