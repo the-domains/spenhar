@@ -1,7 +1,6 @@
 name: Spencer
 favicon: null
-layout_spectrum: 0.8
-typography_spectrum: 0.5
+layout_spectrum: 0
 cta:
   domain: null
   bucket: null
@@ -16,12 +15,13 @@ opengraph:
   appId: null
 color:
   brandColors:
-    - "#fb70ff"
-    - "#0a051d"
-    - "#cef8fd"
-    - "#e700b2"
-    - "#1b4eae"
-  brandStrength: 0
+    - '#fb70ff'
+    - '#0a051d'
+    - '#cef8fd'
+    - '#e700b2'
+    - '#1b4eae'
+  brandStrength: 1
   lightness: 0.5
   saturation: 0.5
+  rhythmicContrast: 0.5
 purpose: []
