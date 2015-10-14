@@ -1,6 +1,5 @@
 name: Spencer
 favicon: null
-layout_spectrum: 0
 typography_spectrum: 0.73785
 title: Spencer Harrison
 cta:
@@ -17,12 +16,12 @@ opengraph:
   appId: null
 color:
   brandColors:
-    - '#fb70ff'
-    - '#0a051d'
-    - '#cef8fd'
-    - '#e700b2'
-    - '#1b4eae'
-  brandStrength: 0
+    - '#8caed0'
+    - '#7b98b6'
+    - '#1f2933'
+    - '#374655'
+    - '#5c738b'
+  brandStrength: 1
   lightness: 1
   saturation: 0.25
   rhythmicContrast: 0.25
