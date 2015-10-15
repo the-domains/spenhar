@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title><![CDATA[Spencer]]></title>
-        <description><![CDATA[Spencer]]></description>
+        <title><![CDATA[Spencer Harrison]]></title>
+        <description><![CDATA[Spencer Harrison]]></description>
         <link>https://thegrid.ai/spenhar/</link>
         <generator>The Grid</generator>
-        <lastBuildDate>Fri, 09 Oct 2015 18:20:47 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 15 Oct 2015 01:55:28 GMT</lastBuildDate>
         <atom:link href="https://thegrid.ai/spenhar/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <description><![CDATA[<img src="http://static1.squarespace.com/static/51e6a418e4b05ef2d657f03f/t/54bde091e4b0ff956999c122/1421729960032/?format=2500w">]]></description>
+            <link>https://thegrid.ai/spenhar/b75c567e-ea8f-426e-a9d4-826b2152f1a2/index.html</link>
+            <guid isPermaLink="false">b75c567e-ea8f-426e-a9d4-826b2152f1a2</guid>
+            <pubDate>Fri, 09 Oct 2015 19:58:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[MIDEAU - Maude (Official Video)]]></title>
             <description><![CDATA[<article><h1>MIDEAU - Maude (Official Video)</h1><p>"Maude", from the upcoming widespread release of the self-titled debut album from Mideau. Coming April 21, 2015 Directed by: Matt Eastin Mideau http://www.mideaumusic.com http://www.twitter.com/mideaumusic http://www.facebook.com/MideauMusic http://www.soundcloud.com/mideau</p><img src="https://i.ytimg.com/vi/Wtyfk8TxLRE/hqdefault.jpg"></article>]]></description>
@@ -15,11 +22,11 @@
             <pubDate>Fri, 09 Oct 2015 18:20:45 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[No title]]></title>
-            <description><![CDATA[<img src="https://pbs.twimg.com/media/CIg7NfiUkAAI7m5.jpg">]]></description>
+            <title><![CDATA[This is me sleeping]]></title>
+            <description><![CDATA[<article><h1>This is me sleeping</h1><img src="https://pbs.twimg.com/media/CIg7NfiUkAAI7m5.jpg"></article>]]></description>
             <link>https://thegrid.ai/spenhar/aae04573-cd37-4f50-9fe7-9bcb2f4849b0/index.html</link>
             <guid isPermaLink="false">aae04573-cd37-4f50-9fe7-9bcb2f4849b0</guid>
-            <pubDate>Sun, 13 Sep 2015 13:40:36 GMT</pubDate>
+            <pubDate>Thu, 15 Oct 2015 01:54:31 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[No title]]></title>
@@ -67,13 +74,6 @@
             <description><![CDATA[<article><h1>Literal humor is in my top 5.</h1><img src="https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/e35/11312503_1471768889806970_278848539_n.jpg"></article>]]></description>
             <link>https://instagram.com/p/6HvFoEDsG4/?taken-by=spenhar</link>
             <guid isPermaLink="false">126d2ea6-c055-4d8d-989e-bf4ad8d1b330</guid>
-            <pubDate>Sat, 12 Sep 2015 15:38:45 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Taller shadows. #Berlin this morning.]]></title>
-            <description><![CDATA[<article><h1>Taller shadows. #Berlin this morning.</h1><img src="https://igcdn-photos-c-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-15/e35/11875287_522477464584634_1428017628_n.jpg"></article>]]></description>
-            <link>https://instagram.com/p/7iHzftjsBd/?taken-by=spenhar</link>
-            <guid isPermaLink="false">27a21033-6f58-42e1-8a36-9ff1cc247df2</guid>
             <pubDate>Sat, 12 Sep 2015 15:38:45 GMT</pubDate>
         </item>
     </channel>
