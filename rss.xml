@@ -4,8 +4,15 @@
         <description><![CDATA[The Official Site for Spencer Harrison]]></description>
         <link>https://thegrid.ai/spenhar/</link>
         <generator>The Grid</generator>
-        <lastBuildDate>Wed, 21 Oct 2015 18:51:09 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 21 Oct 2015 20:53:41 GMT</lastBuildDate>
         <atom:link href="https://thegrid.ai/spenhar/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Time - An Impromptu Musical Haiku]]></title>
+            <description><![CDATA[<article><h1>Time - An Impromptu Musical Haiku</h1><p>An impromptu musical haiku inspired by all my friends and physics stuff.</p><img src="https://i.ytimg.com/vi/sHRFsWFQVDk/hqdefault.jpg"></article>]]></description>
+            <link>https://www.youtube.com/watch?v=sHRFsWFQVDk</link>
+            <guid isPermaLink="false">4d673ed9-280e-4603-b7af-c85179a1651b</guid>
+            <pubDate>Wed, 21 Oct 2015 20:53:38 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Wildfire - SBTRKT feat. Little Dragon]]></title>
             <description><![CDATA[<article><h1>Wildfire - SBTRKT feat. Little Dragon</h1><p>The new album "Nabuma Rubberband" is out now http://po.st/NabumaRubberband Available in the USA on May 13th on Loma Vista Recordings Available in the rest of the world on May 12th on Because Music w</p><img src="https://i1.sndcdn.com/avatars-000069640556-ybg3hc-t500x500.jpg"></article>]]></description>
@@ -67,13 +74,6 @@
             <link>https://thegrid.ai/spenhar/0dea9e00-7fda-4b66-b27a-13e54cfcd739/index.html</link>
             <guid isPermaLink="false">0dea9e00-7fda-4b66-b27a-13e54cfcd739</guid>
             <pubDate>Sat, 12 Sep 2015 16:00:08 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[No title]]></title>
-            <description><![CDATA[<img src="https://m1.behance.net/rendition/pm/11921863/disp/9fac7d69d9fd420413b7a76ca377909b.jpg">]]></description>
-            <link>https://thegrid.ai/spenhar/5976057e-87dd-428c-aa00-ce1de75e72cd/index.html</link>
-            <guid isPermaLink="false">5976057e-87dd-428c-aa00-ce1de75e72cd</guid>
-            <pubDate>Thu, 15 Oct 2015 02:13:16 GMT</pubDate>
         </item>
     </channel>
 </rss>
