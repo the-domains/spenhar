@@ -4,7 +4,7 @@ hasPage: false
 inNav: false
 isBasedOnUrl: 'https://www.youtube.com/watch?v=sHRFsWFQVDk'
 inLanguage: en
-starred: false
+starred: true
 keywords:
   - duration
   - tflatz
@@ -17,8 +17,8 @@ keywords:
   - nge
   - anwendeihwaz
 description: An impromptu musical haiku inspired by all my friends and physics stuff.
-datePublished: '2015-10-21T20:53:38.240Z'
-dateModified: '2015-10-21T20:53:11.592Z'
+datePublished: '2015-10-21T20:54:27.243Z'
+dateModified: '2015-10-21T20:54:23.872Z'
 author:
   - name: Spencer J. Harrison
     url: 'https://www.youtube.com/user/spencerjharrison'
