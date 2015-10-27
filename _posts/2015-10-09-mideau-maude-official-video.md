@@ -16,8 +16,8 @@ keywords:
   - remix
   - benny
 description: '"Maude", from the upcoming widespread release of the self-titled debut album from Mideau. Coming April 21, 2015 Directed by: Matt Eastin Mideau http://www.mideaumusic.com http://www.twitter.com/mideaumusic http://www.facebook.com/MideauMusic http://www.soundcloud.com/mideau'
-datePublished: '2015-10-27T17:21:27.164Z'
-dateModified: '2015-10-27T17:21:23.150Z'
+datePublished: '2015-10-27T17:28:19.703Z'
+dateModified: '2015-10-27T17:28:07.923Z'
 author:
   - name: Mideau
     url: 'https://www.youtube.com/user/mideaumusic'
