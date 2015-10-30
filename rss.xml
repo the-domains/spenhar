@@ -4,8 +4,15 @@
         <description><![CDATA[The Official Site for Spencer Harrison]]></description>
         <link>https://thegrid.ai/spenhar/</link>
         <generator>The Grid</generator>
-        <lastBuildDate>Tue, 27 Oct 2015 17:30:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 30 Oct 2015 19:15:00 GMT</lastBuildDate>
         <atom:link href="https://thegrid.ai/spenhar/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Sunset out the door of my office.]]></title>
+            <description><![CDATA[<article><h1>Sunset out the door of my office.</h1><img src="https://the-grid-user-content.s3-us-west-2.amazonaws.com/ee36e6be-31ce-4c92-8298-c089dbd2ea2f.png"></article>]]></description>
+            <link>https://thegrid.ai/spenhar/sunset-out-the-door-of-my-office/index.html</link>
+            <guid isPermaLink="false">a3b4cf38-d26f-4626-86a7-7ea1809ac758</guid>
+            <pubDate>Fri, 30 Oct 2015 19:14:28 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Just like Everybody Else]]></title>
             <description><![CDATA[<article><h1>Just like Everybody Else</h1><p>Instagram photo by Spencer Harrison * Jun 4, 2015 at 3:12am UTC</p><img src="https://scontent.cdninstagram.com/hphotos-xfa1/t51.2885-15/e15/11378099_1631173413835495_2033773081_n.jpg"></article>]]></description>
@@ -68,13 +75,6 @@
             <link>https://thegrid.ai/spenhar/7f20efcc-174e-48c2-be4e-f5d1dc2eb221/index.html</link>
             <guid isPermaLink="false">7f20efcc-174e-48c2-be4e-f5d1dc2eb221</guid>
             <pubDate>Sat, 12 Sep 2015 16:00:41 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[No title]]></title>
-            <description><![CDATA[<img src="http://img.ffffound.com/static-data/assets/6/3a10f03add82ed8cd45cebf78a71f2668a0ffcab_m.gif">]]></description>
-            <link>https://thegrid.ai/spenhar/0dea9e00-7fda-4b66-b27a-13e54cfcd739/index.html</link>
-            <guid isPermaLink="false">0dea9e00-7fda-4b66-b27a-13e54cfcd739</guid>
-            <pubDate>Sat, 12 Sep 2015 16:00:08 GMT</pubDate>
         </item>
     </channel>
 </rss>
