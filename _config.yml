@@ -1,5 +1,8 @@
+name: Spencer
+favicon: null
+layout_spectrum: 0.2228786
+typography_spectrum: 0.1691729
 title: The Official Site for Spencer Harrison
-purpose: []
 collections:
   - index:
       path: /
@@ -12,30 +15,27 @@ collections:
       path: /rss.xml
       format: rss
       number: 10
+cta:
+  domain: null
+  bucket: null
+  version: null
+analytics:
+  google: null
+  facebook: null
+  twitter: null
+opengraph:
+  image: null
+  type: null
+  appId: null
 color:
-  saturation: 0.625
-  brandStrength: 0.0625
-  lightness: 0.4001074
   brandColors:
     - '#8caed0'
     - '#7b98b6'
     - '#1f2933'
     - '#374655'
     - '#5c738b'
+  brandStrength: 1
+  lightness: 0.4001074
+  saturation: 0.625
   rhythmicContrast: 0
-cta:
-  bucket: null
-  version: null
-  domain: null
-analytics:
-  twitter: null
-  google: null
-  facebook: null
-favicon: null
-name: Spencer
-opengraph:
-  image: null
-  type: null
-  appId: null
-typography_spectrum: 0.1691729
-layout_spectrum: 0.2228786
+purpose: []
