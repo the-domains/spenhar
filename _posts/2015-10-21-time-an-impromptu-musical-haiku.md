@@ -17,8 +17,8 @@ keywords:
   - nge
   - anwendeihwaz
 description: An impromptu musical haiku inspired by all my friends and physics stuff.
-datePublished: '2015-10-27T16:42:43.901Z'
-dateModified: '2015-10-27T16:39:02.120Z'
+datePublished: '2015-11-20T00:52:09.984Z'
+dateModified: '2015-11-19T16:42:41.424Z'
 author:
   - name: Spencer J. Harrison
     url: 'https://www.youtube.com/user/spencerjharrison'
@@ -36,14 +36,14 @@ app_links:
   - url: 'https://www.youtube.com/watch?v=sHRFsWFQVDk&feature=applinks'
     type: web
 title: Time - An Impromptu Musical Haiku
+sourcePath: _posts/2015-10-21-time-an-impromptu-musical-haiku.md
+published: true
 authors: []
 publisher:
   name: YouTube
   domain: www.youtube.com
   url: 'https://www.youtube.com/'
   favicon: 'https://s.ytimg.com/yts/img/favicon-vflz7uhzw.ico'
-sourcePath: _posts/2015-10-21-time-an-impromptu-musical-haiku.md
-published: true
 _type: VideoObject
 _context: 'http://schema.org'
 
