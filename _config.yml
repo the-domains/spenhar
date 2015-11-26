@@ -1,7 +1,7 @@
 name: Spencer
 favicon: null
-layout_spectrum: 0.26628
-typography_spectrum: 0.97551
+layout_spectrum: 0.12861
+typography_spectrum: 0.79318
 title: The Official Site for Spencer Harrison
 collections:
   - index:
@@ -29,13 +29,13 @@ opengraph:
   appId: null
 color:
   brandColors:
-    - '#ededed'
-    - '#b5b5b5'
-    - '#979797'
-    - '#292929'
-    - '#515151'
-  brandStrength: 0.5625
-  lightness: 0.6875
-  saturation: 0.8125
+    - '#ffffff'
+    - '#040404'
+    - '#464646'
+    - '#a4a4a4'
+    - '#ec1b26'
+  brandStrength: 1
+  lightness: 0.75
+  saturation: 0.5625
   rhythmicContrast: 1
 purpose: []
